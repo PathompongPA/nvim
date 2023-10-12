@@ -1,0 +1,9 @@
+* {
+  border: 1px solid;
+}
+
+#boxPokemon {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ccc;
+}
