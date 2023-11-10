@@ -6,6 +6,7 @@ require("pluger.indent-blankline")
 require("pluger.telescope")
 require("pluger.tree")
 require("pluger.color-picker")
+require("pluger.lualine")
 
 vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
@@ -63,4 +64,9 @@ return require('packer').startup(function(use)
   use 'tpope/vim-fugitive'
 
   use 'rbong/vim-flog'
+
+  use {
+    'nvim-lualine/lualine.nvim',
+    requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+  }
 end)

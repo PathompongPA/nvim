@@ -23,6 +23,9 @@ vim.keymap.set('n', '<A-l>', 'gt')
 vim.keymap.set('n', '<leader>1', vim.cmd.b1)
 vim.keymap.set('n', '<leader>2', vim.cmd.b2)
 
+vim.keymap.set('n', '<leader>gg', vim.cmd.Flog)
+vim.keymap.set('n', '<leader>gs', vim.cmd.Git)
+
 local set = vim.opt
 set.tabstop = 6
 set.shiftwidth = 4
