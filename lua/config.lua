@@ -2,7 +2,7 @@
 vim.g.mapleader = " "
 vim.keymap.set('n', '<leader>0', vim.cmd.NvimTreeToggle)
 vim.keymap.set('n', '<A-.>', vim.cmd.NvimTreeFindFile)
-vim.keymap.set('n', '<leader>qq', vim.cmd.q)
+vim.keymap.set('n', '<leader>q', vim.cmd.q)
 vim.keymap.set('n', '<leader>ww', vim.cmd.w)
 vim.keymap.set('n', '<leader>w', '<c-w>')
 vim.keymap.set('n', '<leader>sj', vim.cmd.sp)
@@ -23,6 +23,8 @@ vim.keymap.set('n', '<leader>2', vim.cmd.b2)
 vim.keymap.set('n', '<leader>gg', vim.cmd.Flog)
 vim.keymap.set('n', '<leader>gs', vim.cmd.Git)
 vim.keymap.set('n', '<leader>gs', vim.cmd.Flog)
+
+vim.keymap.set('n', '<C-n>', vim.cmd.ToggleTerm)
 
 local set = vim.opt
 set.tabstop = 6
