@@ -1,7 +1,7 @@
 local opts = { noremap = true, silent = true }
 
-vim.keymap.set("n", "<C-h>", "<cmd>PickColor<cr>", opts)
-vim.keymap.set("i", "<C-h>", "<cmd>PickColorInsert<cr>", opts)
+vim.keymap.set("n", "<leader>cc", "<cmd>PickColor<cr>", opts)
+-- vim.keymap.set("i", "<leader>cc", "<cmd>PickColorInsert<cr>", opts)
 
 -- vim.keymap.set("n", "your_keymap", "<cmd>ConvertHEXandRGB<cr>", opts)
 -- vim.keymap.set("n", "your_keymap", "<cmd>ConvertHEXandHSL<cr>", opts)
@@ -9,10 +9,10 @@ vim.keymap.set("i", "<C-h>", "<cmd>PickColorInsert<cr>", opts)
 require("color-picker").setup({ -- for changing icons & mappings
     -- ["icons"] = { "ﱢ", "" },
     -- ["icons"] = { "ﮊ", "" },
-    ["icons"] = { "", "ﰕ" },
+    -- ["icons"] = { "", "ﰕ" },
     -- ["icons"] = { "", "" },
     -- ["icons"] = { "", "" },
-    -- ["icons"] = { "ﱢ", "" },
+    ["icons"] = { "-", ">" },
     ["border"] = "rounded", -- none | single | double | rounded | solid | shadow
     ["keymap"] = {          -- mapping example:
         ["U"] = "<Plug>ColorPickerSlider5Decrease",

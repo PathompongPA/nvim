@@ -1,4 +1,15 @@
 {
-  "snippets.ultisnips.pythonPrompt": false,
-  "coc.preferences.formatOnSaveFiletypes": ["*"]
+  // "snippets.ultisnips.pythonPrompt": false,
+  "coc.preferences.formatOnSaveFiletypes": ["*"],
+  "snippets.ultisnips.pythonPrompt": false
+}
+{
+    "html-css-support.enabledLanguages": [
+        "html",
+        "vue",
+        "blade",
+        "htmldjango",
+        "typescriptreact",
+        "javascriptreact"
+    ]
 }

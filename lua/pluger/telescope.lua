@@ -7,7 +7,7 @@ vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 require('telescope').setup {
     defaults = {
         file_ignore_patterns = {
-            "node_modules", "gitignore", ".git", ".png", ".icon"
+            -- "node_modules", "gitignore", ".git", ".png", ".icon"
         }
     },
     pickers = {

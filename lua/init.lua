@@ -11,6 +11,8 @@ require("pluger.lualine")
 
 vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
+  use "jlcrochet/vim-razor"
+
   use 'wbthomason/packer.nvim'
 
   use 'joshdick/onedark.vim'
@@ -74,4 +76,5 @@ return require('packer').startup(function(use)
   use { "akinsho/toggleterm.nvim", tag = '*', config = function()
     require("toggleterm").setup()
   end }
+  use { 'nvim-treesitter/nvim-treesitter' }
 end)
