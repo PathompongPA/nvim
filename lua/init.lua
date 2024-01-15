@@ -54,7 +54,6 @@ return require('packer').startup(function(use)
       require("color-picker")
     end,
   })
-  -- packer
 
   use({
     "kylechui/nvim-surround",
@@ -84,8 +83,6 @@ return require('packer').startup(function(use)
     "ggandor/leap.nvim",
     config = function() require("leap").set_default_keymaps() end
   }
-
-  -- use 'simrat39/symbols-outline.nvim'
 
   use "hedyhli/outline.nvim"
 end)

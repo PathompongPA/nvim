@@ -2,7 +2,7 @@ function home() {
   const Pokemon = useRef();
   return (
     <q id="home" className="immortal">
-      <div id="boxPokemon">pahtompong</div>
+      <div id="boxPokemon">some</div>
       <div id="boxPokemon">input</div>
       <ul>
         {Pokemon}
