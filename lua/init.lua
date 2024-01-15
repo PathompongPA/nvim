@@ -8,6 +8,7 @@ require("pluger.telescope")
 require("pluger.tree")
 require("pluger.color-picker")
 require("pluger.lualine")
+require("lua.pluger.outline")
 
 vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
