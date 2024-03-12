@@ -9,6 +9,12 @@ require("pluger.tree")
 require("pluger.color-picker")
 require("pluger.lualine")
 require("pluger.outline")
+require 'colorizer'.setup {
+  filetypes = {
+    '*',
+  },
+}
+
 
 vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
@@ -85,4 +91,5 @@ return require('packer').startup(function(use)
   }
 
   use "hedyhli/outline.nvim"
+  use 'NvChad/nvim-colorizer.lua'
 end)

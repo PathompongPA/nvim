@@ -26,6 +26,8 @@ vim.keymap.set('n', '<leader>gs', vim.cmd.Flog)
 
 vim.keymap.set('n', '<C-n>', vim.cmd.ToggleTerm)
 
+vim.keymap.set('n', '<leader>fn', vim.cmd.Outline)
+
 local set = vim.opt
 set.tabstop = 6
 set.shiftwidth = 4
